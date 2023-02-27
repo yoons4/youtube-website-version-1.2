@@ -413,8 +413,8 @@ export default function App(){
                                 <button className = "subscribe" onClick = {alterSubscribe}>subscribe</button>
                         </ContextMenuTrigger>
                         <ContextMenu className = "smallGet" id = "alter_subscribe">
-                                <MenuItem onClick = {yesSubscribe}>Subscribe</MenuItem>
-                                <MenuItem onClick = {noSubscribe}>Unsubscribe</MenuItem>
+                                <MenuItem className = "menuItem" onClick = {yesSubscribe}>Subscribe</MenuItem>
+                                <MenuItem className = "menuItem" onClick = {noSubscribe}>Unsubscribe</MenuItem>
                         </ContextMenu>
                 </div>
         </section>
@@ -436,15 +436,15 @@ export default function App(){
                                 </ContextMenuTrigger>
 
                                 <ContextMenu className = "contextDesign" id="first_identity">
-                                        <MenuItem>Add to queue</MenuItem>
-                                        <MenuItem>Save to watch later</MenuItem>
-                                        <MenuItem onClick = {shareFirstModal}>Share</MenuItem>
+                                        <MenuItem className = "menuItem">Add to queue</MenuItem>
+                                        <MenuItem className = "menuItem">Save to watch later</MenuItem>
+                                        <MenuItem className = "menuItem" onClick = {shareFirstModal}>Share</MenuItem>
           				<ShareFunction openValue = {modalFirstShare} closeFunction = {notShareFirstModal} />
-                                        <MenuItem onClick = {saveFirstModal}>Save to playlist</MenuItem>
+                                        <MenuItem className = "menuItem" onClick = {saveFirstModal}>Save to playlist</MenuItem>
           				<SaveFunction openValue = {modalSaveFirst} closeFunction = {notSaveFirstModal} />
-                                        <MenuItem>Not interested</MenuItem>
-                                        <MenuItem>Don't recommend channel</MenuItem>
-          				<MenuItem onClick = {openFirstModal}>Report</MenuItem>
+                                        <MenuItem className = "menuItem">Not interested</MenuItem>
+                                        <MenuItem className = "menuItem">Don't recommend channel</MenuItem>
+          				<MenuItem className = "menuItem" onClick = {openFirstModal}>Report</MenuItem>
          				<SideFunction openValue = {modalFirstOpen} closeFunction = {closeFirstModal} />
                                 </ContextMenu>
         			</div>
@@ -461,15 +461,15 @@ export default function App(){
                                 </ContextMenuTrigger>
 
                                 <ContextMenu className = "contextDesign" id="second_identity">
-                                        <MenuItem>Add to queue</MenuItem>
-                                        <MenuItem>Save to watch later</MenuItem>
-                                        <MenuItem onClick = {shareSecondModal}>Share</MenuItem>
+                                        <MenuItem className = "menuItem">Add to queue</MenuItem>
+                                        <MenuItem className = "menuItem">Save to watch later</MenuItem>
+                                        <MenuItem className = "menuItem" onClick = {shareSecondModal}>Share</MenuItem>
           				<ShareFunction openValue = {modalSecondShare} closeFunction = {notShareSecondModal} />
-                                        <MenuItem onClick = {saveSecondModal}>Save to playlist</MenuItem>
+                                        <MenuItem className = "menuItem" onClick = {saveSecondModal}>Save to playlist</MenuItem>
           				<SaveFunction openValue = {modalSaveSecond} closeFunction = {notSaveSecondModal} />
-                                        <MenuItem>Not interested</MenuItem>
-                                        <MenuItem>Don't recommend channel</MenuItem>
-          				<MenuItem onClick = {openSecondModal}>Report</MenuItem>
+                                        <MenuItem className = "menuItem">Not interested</MenuItem>
+                                        <MenuItem className = "menuItem">Don't recommend channel</MenuItem>
+          				<MenuItem className = "menuItem" onClick = {openSecondModal}>Report</MenuItem>
           				<SideFunction openValue = {modalSecondOpen} closeFunction = {closeSecondModal} />
                                 </ContextMenu>
                         </li>
@@ -485,15 +485,15 @@ export default function App(){
                                 </ContextMenuTrigger>
 
                                 <ContextMenu className = "contextDesign" id="third_identity">
-                                        <MenuItem>Add to queue</MenuItem>
-                                        <MenuItem>Save to watch later</MenuItem>
-                                        <MenuItem onClick = {shareThirdModal}>Share</MenuItem>
+                                        <MenuItem className = "menuItem">Add to queue</MenuItem>
+                                        <MenuItem className = "menuItem">Save to watch later</MenuItem>
+                                        <MenuItem className = "menuItem" onClick = {shareThirdModal}>Share</MenuItem>
           				<ShareFunction openValue = {modalThirdShare} closeFunction = {notShareThirdModal} />
-                                        <MenuItem onClick = {saveThirdModal}>Save to playlist</MenuItem>
+                                        <MenuItem className = "menuItem" onClick = {saveThirdModal}>Save to playlist</MenuItem>
           				<SaveFunction openValue = {modalSaveThird} closeFunction = {notSaveThirdModal} />
-                                        <MenuItem>Not interested</MenuItem>
-                                        <MenuItem>Don't recommend channel</MenuItem>
-          				<MenuItem onClick = {openThirdModal}>Report</MenuItem>
+                                        <MenuItem className = "menuItem">Not interested</MenuItem>
+                                        <MenuItem className = "menuItem">Don't recommend channel</MenuItem>
+          				<MenuItem className = "menuItem" onClick = {openThirdModal}>Report</MenuItem>
           				<SideFunction openValue = {modalThirdOpen} closeFunction = {closeThirdModal} />
         			</ContextMenu>
                        </li>
