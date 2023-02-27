@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/youtube-website-version-1/static/css/main.7433da93.css",
+    "main.js": "/youtube-website-version-1/static/js/main.69ff046b.js",
+    "static/js/787.da6564fd.chunk.js": "/youtube-website-version-1/static/js/787.da6564fd.chunk.js",
+    "static/media/Kingdom Hearts - 'Aqua's Theme' - ORIGINAL LYRICS - Lizz Robinett & @Dysergy.mp4": "/youtube-website-version-1/static/media/Kingdom Hearts - 'Aqua's Theme' - ORIGINAL LYRICS - Lizz Robinett & @Dysergy.06b40aa9feffd0026870.mp4",
+    "static/media/VID-20220119-WA0027 (1).mp4": "/youtube-website-version-1/static/media/VID-20220119-WA0027 (1).97470553f157ffb62ad8.mp4",
+    "static/media/'Roxas's Theme' (Kingdom Hearts) Original Lyrics by Lizz Robinett.mp4": "/youtube-website-version-1/static/media/'Roxas's Theme' (Kingdom Hearts) Original Lyrics by Lizz Robinett.1ff7db543a5f058bbab9.mp4",
+    "static/media/Kingdom Hearts - 'Riku's Theme' - ORIGINAL LYRICS - Lizz Robinett.mp4": "/youtube-website-version-1/static/media/Kingdom Hearts - 'Riku's Theme' - ORIGINAL LYRICS - Lizz Robinett.73abb5993e9734ebc2a6.mp4",
+    "static/media/Sangha.jpeg": "/youtube-website-version-1/static/media/Sangha.09142b740e052956810d.jpeg",
+    "static/media/terra.png": "/youtube-website-version-1/static/media/terra.e471d360133598e168a3.png",
+    "static/media/roxas.png": "/youtube-website-version-1/static/media/roxas.8bb47933f6840965798d.png",
+    "static/media/aqua.png": "/youtube-website-version-1/static/media/aqua.e53bb5403ccf838eb6f2.png",
+    "index.html": "/youtube-website-version-1/index.html",
+    "main.7433da93.css.map": "/youtube-website-version-1/static/css/main.7433da93.css.map",
+    "main.69ff046b.js.map": "/youtube-website-version-1/static/js/main.69ff046b.js.map",
+    "787.da6564fd.chunk.js.map": "/youtube-website-version-1/static/js/787.da6564fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7433da93.css",
+    "static/js/main.69ff046b.js"
+  ]
+}
