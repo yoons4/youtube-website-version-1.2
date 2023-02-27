@@ -46,6 +46,7 @@ span {
         height: 200px;
         width: 250px;
         background-color: white;
+	z-index: 2;
 }
 
 .menuItem:hover{
@@ -63,6 +64,7 @@ span {
         height: 50px;
         width: 100px;
         background-color: white;
+	z-index: 2;
 }
 
 .hoverVideoStyle{
@@ -239,6 +241,7 @@ body > .info {
 /* Up Next*/
 .upNext{
     padding: 0 12px;
+    width: 100%;
 }
 
 .upNext > .title {
