@@ -50,35 +50,6 @@ function ThirdComponent(){
         );
 }
 
-function SideFunction ({openValue, closeFunction}){
-        return(
-                <div>
-                        <Modal isOpen = {openValue} onRequestClose = {closeFunction} style = {customStyles} contentLabel = "Example Modal">
-                                <h1>Report video</h1>
-                                <label for = "problemReport">What is this video's problem?</label><br />
-                                <form>
-          <div>
-                                        <input type = "radio" id = "a" name = "as" value = "as" checked /><label for = "a">Sexual content</label><br /><br />
-                                        <input type = "radio" id = "b" name = "as" value = "as" /><label for = "b">Violent or repulsive content</label><br /><br />
-                                        <input type = "radio" id = "c" name = "as" value = "as" /><label for = "c">Hateful or abusive content</label><br /><br />
-                                        <input type = "radio" id = "d" name = "as" value = "as" /><label for = "d">Harassment or bullying</label><br /><br />
-                                        <input type = "radio" id = "e" name = "as" value = "as" /><label for = "e">Harmful or dangerous acts</label><br /><br />
-                                        <input type = "radio" id = "f" name = "as" value = "as" /><label for = "f">Misinformation</label><br /><br />
-                                        <input type = "radio" id = "g" name = "as" value = "as" /><label for = "g">Child abuse</label><br /><br />
-                                        <input type = "radio" id = "h" name = "as" value = "as" /><label for = "h">Promotes terrorism</label><br /><br />
-                                        <input type = "radio" id = "i" name = "as" value = "as" /><label for = "i">Spam or misleading</label><br /><br />
-                                        <input type = "radio" id = "j" name = "as" value = "as" /><label for = "j">Infringes my rights</label><br /><br />
-                                        <input type = "radio" id = "k" name = "as" value = "as" /><label for = "k">Captions issue</label><br />
-          </div>
-  
-                                        <p>Flagged videos and users are reviewed by YouTube staff 24 hours a day, 7 days a week to determine whether they violate Community Guidelines. Accounts are penalized for Community Guidelines violations, and serious or repeated violations can lead to account termination.</p>
-                                        <button onClick = {closeFunction}>Cancel</button>
-                                </form>
-                        </Modal>
-                </div>
-        );
-}
-
 function SaveFunction ({openValue, closeFunction}){
         return(
                 <div>
@@ -127,6 +98,85 @@ const increasezIndex = () => {
 };
 
 export default function App(){
+	const [submitModal, submitButton] = useState(false);
+
+        function openAnswer(){
+			console.log("2");
+                        if(document.getElementById("a").checked === true || document.getElementById("b").checked === true || document.getElementById("c").checked === true
+                        || document.getElementById("d").checked === true || document.getElementById("e").checked === true || document.getElementById("f").checked === true
+                        || document.getElementById("g").checked === true || document.getElementById("h").checked === true || document.getElementById("i").checked === true
+                        || document.getElementById("j").checked === true || document.getElementById("k").checked === true){
+				console.log("3");
+                                submitButton(true);
+				console.log("7");
+                   	}
+        }
+
+        function closeAnswer(){
+                submitButton(false);
+        }
+	
+        function SideFunction ({openValue, closeFunction}){
+
+		const getLoadPage = (event) => {
+			event.preventDefault();
+			console.log("1");
+			openAnswer();
+  		}	
+
+		function FinalCheck() {
+			var elementName = document.getElementsByName("as");
+                        console.log(elementName);
+                        for(var i = 0; i < elementName.length; i++){
+                              if(elementName[i].checked){
+                                        console.log(elementName[i].value);
+                                        <AnswerGet selectionChoice = {elementName[i].value} />
+                              }
+                        }
+		}
+
+		function AnswerGet(selectionChoice){
+			return(
+				<>
+					<p>{selectionChoice}</p>
+				</>
+			);
+		}
+
+                return(
+                        <div>
+                                <Modal isOpen = {openValue} onRequestClose = {closeFunction} style = {customStyles} contentLabel = "Example Modal">
+                                        <h1>Report video</h1>
+                                        <label for = "problemReport">What is this video's problem?</label><br />
+                                        <form onSubmit = {getLoadPage}>
+                                        <div>
+                                                <input type = "radio" id = "a" name = "as" value = "Sexual content" required /><label for = "a">Sexual content</label><br /><br />
+                                                <input type = "radio" id = "b" name = "as" value = "Violent or repulsive content" required /><label for = "b">Violent or repulsive content</label><br /><br />
+                                                <input type = "radio" id = "c" name = "as" value = "Hateful or abusive content" required /><label for = "c">Hateful or abusive content</label><br /><br />
+                                                <input type = "radio" id = "d" name = "as" value = "Harassment or bullying" required /><label for = "d">Harassment or bullying</label><br /><br />
+                                                <input type = "radio" id = "e" name = "as" value = "Harmful or dangerous acts" required /><label for = "e">Harmful or dangerous acts</label><br /><br />
+                                                <input type = "radio" id = "f" name = "as" value = "Misinformation" required /><label for = "f">Misinformation</label><br /><br />
+                                                <input type = "radio" id = "g" name = "as" value = "Child abuse" required /><label for = "g">Child abuse</label><br /><br />
+                                                <input type = "radio" id = "h" name = "as" value = "Promotes terrorism" required /><label for = "h">Promotes terrorism</label><br /><br />
+                                                <input type = "radio" id = "i" name = "as" value = "Spam or misleading" required /><label for = "i">Spam or misleading</label><br /><br />
+                                                <input type = "radio" id = "j" name = "as" value = "Infringes my rights" required /><label for = "j">Infringes my rights</label><br /><br />
+                                                <input type = "radio" id = "k" name = "as" value = "Captions issue" required /><label for = "k">Captions issue</label><br />
+                                        </div>
+                                        <p>Flagged videos and users are reviewed by YouTube staff 24 hours a day, 7 days a week to determine whether they violate Community Guidelines. Accounts are penalized for Community Guidelines violations, and serious or repeated violations can lead to account termination.</p>
+                                        <input type = "submit" style = {{border: "1px black solid", float: "right", marginLeft: "6px"}} value = "Submit" />
+					<Modal isOpen = {submitModal} onRequestClose = {closeAnswer} style = {customStyles} contentLabel = "finalAnswer">
+                                        <h1>Thanks for reporting</h1>
+					<h2>Issue</h2>
+					<FinalCheck />
+                                        <h3>We will take care of this issue!!</h3>
+                                        <button onClick = {closeAnswer} style = {{border: "1px black solid", float: "right"}}>Close</button>
+                        		</Modal>
+                                        <button onClick = {closeFunction} style = {{border: "1px black solid", marginRight: "6px", float: "right"}}>Cancel</button>
+                                        </form>	
+                                </Modal>
+                        </div>
+                );
+        }
  
   const [modalIsOpen, setIsOpen] = useState(false);
 
