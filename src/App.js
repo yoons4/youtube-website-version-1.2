@@ -99,49 +99,38 @@ const increasezIndex = () => {
 
 export default function App(){
 	const [submitModal, submitButton] = useState(false);
-
-        function openAnswer(){
-			console.log("2");
-                        if(document.getElementById("a").checked === true || document.getElementById("b").checked === true || document.getElementById("c").checked === true
-                        || document.getElementById("d").checked === true || document.getElementById("e").checked === true || document.getElementById("f").checked === true
-                        || document.getElementById("g").checked === true || document.getElementById("h").checked === true || document.getElementById("i").checked === true
-                        || document.getElementById("j").checked === true || document.getElementById("k").checked === true){
-				console.log("3");
-                                submitButton(true);
-				console.log("7");
-                   	}
-        }
+        
 
         function closeAnswer(){
                 submitButton(false);
         }
-	
-        function SideFunction ({openValue, closeFunction}){
 
-		const getLoadPage = (event) => {
-			event.preventDefault();
-			console.log("1");
-			openAnswer();
-  		}	
+	const [displayAnswer, displayProblem] = useState("");
 
-		function FinalCheck() {
-			var elementName = document.getElementsByName("as");
-                        console.log(elementName);
-                        for(var i = 0; i < elementName.length; i++){
-                              if(elementName[i].checked){
-                                        console.log(elementName[i].value);
-                                        <AnswerGet selectionChoice = {elementName[i].value} />
-                              }
+        const getLoadPage = (event) => {
+
+                var elementName = document.getElementsByName("as");
+                for(var i = 0; i < elementName.length; i++){
+                        if(elementName[i].checked){
+                                displayProblem(elementName[i].value);
+                                break;
                         }
-		}
+                }
+                OpenAnswer();
+                event.preventDefault();
+                
+          }
 
-		function AnswerGet(selectionChoice){
-			return(
-				<>
-					<p>{selectionChoice}</p>
-				</>
-			);
-		}
+        function OpenAnswer(){
+                if(document.getElementById("a").checked === true || document.getElementById("b").checked === true || document.getElementById("c").checked === true
+                || document.getElementById("d").checked === true || document.getElementById("e").checked === true || document.getElementById("f").checked === true
+                || document.getElementById("g").checked === true || document.getElementById("h").checked === true || document.getElementById("i").checked === true
+                || document.getElementById("j").checked === true || document.getElementById("k").checked === true){
+                        console.log("3");
+                        submitButton(true);
+                   }
+        }
+        function SideFunction ({openValue, closeFunction}){
 
                 return(
                         <div>
@@ -167,7 +156,7 @@ export default function App(){
 					<Modal isOpen = {submitModal} onRequestClose = {closeAnswer} style = {customStyles} contentLabel = "finalAnswer">
                                         <h1>Thanks for reporting</h1>
 					<h2>Issue</h2>
-					<FinalCheck />
+					<p>{displayAnswer}</p>
                                         <h3>We will take care of this issue!!</h3>
                                         <button onClick = {closeAnswer} style = {{border: "1px black solid", float: "right"}}>Close</button>
                         		</Modal>
@@ -548,7 +537,7 @@ export default function App(){
         			</ContextMenu>
                        </li>
                 </ul>
-        </section>
+                </section>
      </div>
   </div>
   );
