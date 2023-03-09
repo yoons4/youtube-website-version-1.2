@@ -92,7 +92,7 @@
 
 --Youtube sample website에서 마우스가 비디오보다 작은 그림들 위에 있다면 저절로 그림에 해당되는 비디오가 움직인다.
 
-<img width="173" alt="Screenshot 2023-03-09 at 3 35 28 PM" src="https://user-images.githubusercontent.com/44684815/223940283-15737706-5d7a-420b-bc20-25cf7796d611.png"><img width="180" alt="Screenshot 2023-03-09 at 3 34 25 PM" src="https://user-images.githubusercontent.com/44684815/223940303-96491a82-8184-4349-8e3a-aa3a5eb0b110.png"><img width="176" alt="Screenshot 2023-03-09 at 3 34 21 PM" src="https://user-images.githubusercontent.com/44684815/223940325-cf631f9f-97a2-49dc-9b61-91d147dd1bbc.png">
+--엡사이트에 나오는 예들: <img width="173" alt="Screenshot 2023-03-09 at 3 35 28 PM" src="https://user-images.githubusercontent.com/44684815/223940283-15737706-5d7a-420b-bc20-25cf7796d611.png"><img width="180" alt="Screenshot 2023-03-09 at 3 34 25 PM" src="https://user-images.githubusercontent.com/44684815/223940303-96491a82-8184-4349-8e3a-aa3a5eb0b110.png"><img width="176" alt="Screenshot 2023-03-09 at 3 34 21 PM" src="https://user-images.githubusercontent.com/44684815/223940325-cf631f9f-97a2-49dc-9b61-91d147dd1bbc.png">
 
 
 
