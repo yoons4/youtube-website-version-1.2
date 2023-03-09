@@ -77,11 +77,10 @@
 
 1. Share: <img width="1440" alt="Screenshot 2023-03-09 at 3 58 15 PM" src="https://user-images.githubusercontent.com/44684815/223944719-0695e025-3aa3-400a-8dd2-3653273f1e3e.png">
 
-2. Save (Save to Playlist): <img width="1440" alt="Screenshot 2023-02-22 at 5 04 33 PM" src="https://user-images.githubusercontent.com/44684815/220559615-9cdea60c-be0e-4be7-9822-093f43e7f059.png">
+2. Save (Save to Playlist): <img width="1440" alt="Screenshot 2023-03-09 at 3 58 15 PM" src="https://user-images.githubusercontent.com/44684815/223944928-78c708e9-752b-420b-8f20-1edd083ab4b2.png">
 
-3. Report: 
 
-<img width="768" alt="Screenshot 2023-02-22 at 5 06 54 PM" src="https://user-images.githubusercontent.com/44684815/220559873-9b56a827-81e2-4808-8ec5-d93750df70c5.png">
+3. Report: <img width="768" alt="Screenshot 2023-02-22 at 5 06 54 PM" src="https://user-images.githubusercontent.com/44684815/220559873-9b56a827-81e2-4808-8ec5-d93750df70c5.png">
 
 --게다가 이런 <img width="35" alt="Screenshot 2023-02-22 at 5 07 43 PM" src="https://user-images.githubusercontent.com/44684815/220560026-25dc62be-eb25-46ef-85cc-a2154eec22f9.png"> 버튼을 누르면 ContextMenu가 나와서 Save, Share, Report를 보여준다.
 
