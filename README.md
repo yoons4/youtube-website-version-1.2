@@ -81,7 +81,8 @@
 
 
 3. Report: 
-<img width="768" alt="Screenshot 2023-02-22 at 5 06 54 PM" src="https://user-images.githubusercontent.com/44684815/220559873-9b56a827-81e2-4808-8ec5-d93750df70c5.png">
+<img width="767" alt="Screenshot 2023-03-09 at 4 20 44 PM" src="https://user-images.githubusercontent.com/44684815/223949504-76db38d3-bc18-4205-9d17-a9be33fac068.png">
+
 
 --게다가 이런 <img width="35" alt="Screenshot 2023-02-22 at 5 07 43 PM" src="https://user-images.githubusercontent.com/44684815/220560026-25dc62be-eb25-46ef-85cc-a2154eec22f9.png"> 버튼을 누르면 ContextMenu가 나와서 Save, Share, Report를 보여준다.
 
