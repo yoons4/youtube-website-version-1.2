@@ -1,5 +1,5 @@
 # Youtube sample website (version 1.2)
-1. Website's address: https://yoons4.github.io/youtube-website-version-1/
+1. Website's address: https://yoons4.github.io/youtube-website-version-1.2/
 2. 컴퓨터 언어: React.
 3. 설명: 보통 YouTube Website처럼 모양이 비슷하지만 보통 엡사이트가 가져야 할 기능들을 충분히 가지고 있다.
 
@@ -44,7 +44,7 @@
 
 --그 반대로 앱사이트의 넒이가 768px이거나 보다 더 큰다면 비디오 아래에 있는 section들의 위치 순서가 가로로 정리 되어진다.
 
-<img width="1440" alt="Screenshot 2023-02-22 at 3 39 41 PM" src="https://user-images.githubusercontent.com/44684815/220542653-6542cf44-b989-43a9-b49f-0b3289a2f976.png">
+<img width="1440" alt="Screenshot 2023-03-09 at 4 02 15 PM" src="https://user-images.githubusercontent.com/44684815/223945755-92f4a951-e9a4-4447-b571-94e923ce9de2.png">
 
 ***
 
@@ -75,15 +75,22 @@
 
 --내꺼와 진짜 유투브 엡사이트의 사이에서 이 기능들의 특징은 거이 차이가 없다. 왜냐하면 그것들을 누를 때마다 Modal Menu가 나오기 때문이다. 
 
-1. Share: <img width="1440" alt="Screenshot 2023-02-22 at 5 04 13 PM" src="https://user-images.githubusercontent.com/44684815/220559287-8d39e0a6-92e5-47f9-9375-6cc9f3142366.png">
+1. Share: <img width="1440" alt="Screenshot 2023-03-09 at 3 58 15 PM" src="https://user-images.githubusercontent.com/44684815/223944719-0695e025-3aa3-400a-8dd2-3653273f1e3e.png">
 
-2. Save (Save to Playlist): <img width="1440" alt="Screenshot 2023-02-22 at 5 04 33 PM" src="https://user-images.githubusercontent.com/44684815/220559615-9cdea60c-be0e-4be7-9822-093f43e7f059.png">
+2. Save (Save to Playlist): <img width="1440" alt="Screenshot 2023-03-09 at 3 58 15 PM" src="https://user-images.githubusercontent.com/44684815/223944928-78c708e9-752b-420b-8f20-1edd083ab4b2.png">
+
 
 3. Report: 
+<img width="767" alt="Screenshot 2023-03-09 at 4 22 15 PM" src="https://user-images.githubusercontent.com/44684815/223949720-21680cd7-2d62-4aba-8b12-34ed1d342999.png">
 
-<img width="768" alt="Screenshot 2023-02-22 at 5 06 54 PM" src="https://user-images.githubusercontent.com/44684815/220559873-9b56a827-81e2-4808-8ec5-d93750df70c5.png">
+
 
 --게다가 이런 <img width="35" alt="Screenshot 2023-02-22 at 5 07 43 PM" src="https://user-images.githubusercontent.com/44684815/220560026-25dc62be-eb25-46ef-85cc-a2154eec22f9.png"> 버튼을 누르면 ContextMenu가 나와서 Save, Share, Report를 보여준다.
+
+--하지만 Report에서 선택들이 들어있다. 그것들은 유투부 비디오에 있을 가능한 문제들이다. 만약 하나를 골라서 대출한다면 그 선택한 문제를 풀겠다고 매세지를 보여준다. 이 과정에서 또 Modal Page가 나온다.
+
+<img width="765" alt="Screenshot 2023-03-09 at 4 23 18 PM" src="https://user-images.githubusercontent.com/44684815/223949904-4dd5607a-b924-4cc4-b93d-6c0494cf33a4.png">
+
 
 
 ***
@@ -91,6 +98,12 @@
 ## HoverVideoPlayer 기능
 
 --Youtube sample website에서 마우스가 비디오보다 작은 그림들 위에 있다면 저절로 그림에 해당되는 비디오가 움직인다.
+
+--엡사이트에 나오는 예들: 
+
+<img width="173" alt="Screenshot 2023-03-09 at 3 35 28 PM" src="https://user-images.githubusercontent.com/44684815/223940283-15737706-5d7a-420b-bc20-25cf7796d611.png"><img width="180" alt="Screenshot 2023-03-09 at 3 34 25 PM" src="https://user-images.githubusercontent.com/44684815/223940303-96491a82-8184-4349-8e3a-aa3a5eb0b110.png"><img width="176" alt="Screenshot 2023-03-09 at 3 34 21 PM" src="https://user-images.githubusercontent.com/44684815/223940325-cf631f9f-97a2-49dc-9b61-91d147dd1bbc.png">
+
+
 
 
 
