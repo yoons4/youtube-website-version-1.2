@@ -75,7 +75,7 @@
 
 --내꺼와 진짜 유투브 엡사이트의 사이에서 이 기능들의 특징은 거이 차이가 없다. 왜냐하면 그것들을 누를 때마다 Modal Menu가 나오기 때문이다. 
 
-1. Share: <img width="1440" alt="Screenshot 2023-02-22 at 5 04 13 PM" src="https://user-images.githubusercontent.com/44684815/220559287-8d39e0a6-92e5-47f9-9375-6cc9f3142366.png">
+1. Share: <img width="1440" alt="Screenshot 2023-03-09 at 3 58 15 PM" src="https://user-images.githubusercontent.com/44684815/223944719-0695e025-3aa3-400a-8dd2-3653273f1e3e.png">
 
 2. Save (Save to Playlist): <img width="1440" alt="Screenshot 2023-02-22 at 5 04 33 PM" src="https://user-images.githubusercontent.com/44684815/220559615-9cdea60c-be0e-4be7-9822-093f43e7f059.png">
 
