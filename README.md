@@ -85,6 +85,11 @@
 
 --게다가 이런 <img width="35" alt="Screenshot 2023-02-22 at 5 07 43 PM" src="https://user-images.githubusercontent.com/44684815/220560026-25dc62be-eb25-46ef-85cc-a2154eec22f9.png"> 버튼을 누르면 ContextMenu가 나와서 Save, Share, Report를 보여준다.
 
+--하지만 Report에서 선택들이 들어있다. 그것들은 유투부 비디오에 있을 가능한 문제들이다. 만약 하나를 골라서 대출한다면 그 선택한 문제를 풀겠다고 매세지를 보여준다. 이 과정에서 또 Modal Page가 나온다.
+
+<img width="774" alt="Screenshot 2023-03-09 at 4 14 20 PM" src="https://user-images.githubusercontent.com/44684815/223947977-29b859b0-0f74-4408-b02c-19918966f011.png">
+
+
 
 ***
 
