@@ -44,7 +44,7 @@
 
 --그 반대로 앱사이트의 넒이가 768px이거나 보다 더 큰다면 비디오 아래에 있는 section들의 위치 순서가 가로로 정리 되어진다.
 
-<img width="1440" alt="Screenshot 2023-03-09 at 3 58 15 PM" src="https://user-images.githubusercontent.com/44684815/223945622-4a7fc136-3eeb-47df-89bb-43d5e1954a85.png">
+<img width="1440" alt="Screenshot 2023-03-09 at 4 02 15 PM" src="https://user-images.githubusercontent.com/44684815/223945755-92f4a951-e9a4-4447-b571-94e923ce9de2.png">
 
 ***
 
