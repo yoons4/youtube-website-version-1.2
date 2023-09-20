@@ -130,6 +130,7 @@ export default function App(){
                         submitButton(true);
                    }
         }
+
         function SideFunction ({openValue, closeFunction}){
 
                 return(
